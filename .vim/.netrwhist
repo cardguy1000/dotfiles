@@ -1,0 +1,5 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_1='ftp://iponly134830@dev.mcbridehomes.com:21/htdocs/'
+let g:netrw_dirhist_2='ftp://iponly134830@dev.mcbridehomes.com:21/htdocs/classes/'
+let g:netrw_dirhist_3='C:/Users/kackl_000'

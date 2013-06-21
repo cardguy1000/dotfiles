@@ -1,0 +1,11 @@
+1.) Type :e $MYVIMRC<Enter>
+2.) Delete everything in the file
+3.) Replace file contents with (vimrc.vim file should be in dropbox\VIM)
+      set runtimepath+=$HOME/My\ Documents/My\ Dropbox/vim
+      source $HOME\My Documents\My Dropbox\vim\vimrc.vim
+4.)Close and reopen
+
+Add this to mswindows
+source $VIMRUNTIME/vimrc_example.vim
+source $VIMRUNTIME/mswin.vim
+behave mswin

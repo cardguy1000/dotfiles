@@ -1,0 +1,27 @@
+Goto last modified location: '.
+Indent/Unindent while in insert mode: CTRL+T/CTRL+D
+Use \c in search to make case insensitive or \C for case sensitive
+Paste adjusting indent ]p
+In insert mode type CTRL+R followed by register letter to paste
+Use abreviations to replace text, :iab techo <? echo ;?><Left><Left><Left>
+Use :sp to see same file in split mode
+Switch split windows CTRL-W j or k in direcction of j/k
+Close split window CTRL-W c
+To view search or command history press q/ or q:, press enter to execute the command, CTRL-C to copy to command line, CTRL+C twice to close
+Move down one line without moving cursor CTRL+E
+Use :set scrolloff=N to make window auto scroll when cursor is within N lines of top/bottom
+Use CTRL+B/CTRL+F to scroll/forwards a whole page
+CTRL+O jumps your curser to an older line, CTRL+I to newer
+'> or '< to move cursor to begining or end of last visual selection
+[{ when somewhere inside a code block such as an if statement will take you to the { that started the code block
+type changes to see a list of changes, press #g; or #g, where # is the number noted from :changes to take to that result
+:Sex file editor in split
+== to autoindent current line, alternatively visual select and press =
+If you yank something into a register you can use that in ex by press CTRL+R followed by register
+%s/\ r//g to remove all those nasty ^M from a file, or :%s/\ r$//g for only at the end of a line.
+gn will visually highlight the next match from previous search.  {command}gn will operate on next match, for example dgn would delete the next match!
+If you press CTRL+D after :help {subject} it will list all possibilities
+g*,g# to search for word under cursor (not exact)
+When searching press CTRL+R CTRL+W to copy the word under cursor to search line
+\c force search case insenstive, \C force case sensative (ex: \the\C)
+
