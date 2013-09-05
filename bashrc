@@ -30,6 +30,9 @@ alias ..='cd ..'         # Go up one directory
 alias ...='cd ../..'     # Go up two directories
 alias ....='cd ../../..' # Go up three directories
 alias -- -='cd -'        # Go back
+alias cdh='cd /var/www/html'
+alias chd='cd /var/www/html'
+alias cdd='cd ~/dotfiles'
 
 # Shell History
 alias h='history'
