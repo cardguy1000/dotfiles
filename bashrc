@@ -2,6 +2,9 @@
 set -o vi
 bind -m vi-insert "\C-l":clear-screen
 
+alias vrc='vim ~/.bashrc'
+alias src='. ~/.bashrc'
+
 #aliases
 alias sl=ls
 alias ls='ls -G'        # Compact view, show colors
