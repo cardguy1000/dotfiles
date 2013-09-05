@@ -36,9 +36,23 @@ alias h='history'
 alias	md='mkdir -p'
 alias	rd='rmdir'
 
+#git aliases
+alias gcl='git clone'
+alias ga='git add'
+alias gall='git add .'
+alias g='git'
+alias get='git'
+alias gd='git diff'
+alias gdw='git diff master web/master'
+alias gs='git status'
+alias gc='git commit -v'
+alias gb='git branch'
+alias gco='git checkout'
+alias gll='git log --graph --pretty=oneline --abbrev-commit'
+alias gg="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset' --abbrev-commit --date=relative"
+alias gsl="git shortlog -sn"
+
 # Source global definitions
 if [ -f /etc/bashrc ]; then
 	. /etc/bashrc
 fi
-
-# User specific aliases and functions
