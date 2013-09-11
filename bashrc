@@ -4,6 +4,7 @@ bind -m vi-insert "\C-l":clear-screen
 
 alias vrc='vim ~/.bashrc'
 alias src='. ~/.bashrc'
+alias info='info --vi-keys'
 
 #aliases
 alias sl=ls
