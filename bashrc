@@ -62,3 +62,5 @@ alias gsl="git shortlog -sn"
 if [ -f /etc/bashrc ]; then
 	. /etc/bashrc
 fi
+
+source ~/.mybashrc
