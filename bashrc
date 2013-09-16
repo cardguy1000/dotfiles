@@ -63,4 +63,7 @@ if [ -f /etc/bashrc ]; then
 	. /etc/bashrc
 fi
 
-source ~/.mybashrc
+if [ -f ~/.mybashrc ]; then
+   source ~/.mybashrc
+fi
+   

@@ -79,4 +79,6 @@ if has('win32') || has('win64')
 	behave mswin
 :endif
 
-source ~/.myvimrc
+if filereadable('~/.myvimrc')
+   source ~/.myvimrc
+endif
